@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-weight: bold;
+}
+
+.header div:first-child {
+  color: var(--blue);
+}
+
+.header div:last-child {
+  color: var(--purple);
+}
+
+.header div p {
+  font-size: 0.875rem;
+}
+
+.header div span {
+  background-color: var(--gray-400);
+  color: var(--gray-200);
+
+  font-size: 0.75rem;
+
+  border-radius: 16px;
+
+  padding: 0.125rem 0.5rem;
+}

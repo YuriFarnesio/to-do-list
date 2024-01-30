@@ -1,0 +1,30 @@
+.container {
+  width: 100%;
+  max-width: 48rem;
+
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+.formContainer {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  gap: 0.5rem;
+
+  transform: translateY(-50%);
+
+  margin-bottom: 4rem;
+}
+
+.tasksList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.tasksList > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
